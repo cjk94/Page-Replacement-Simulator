@@ -18,9 +18,11 @@ of the program.
 
 To run from the command-line choose one of these options:
 
-java vmsim –n <numframes> -a opt <tracefile>
-java vmsim –n <numframes> -a fifo <tracefile>
-java vmsim –n <numframes> -a aging -r <refresh> <tracefile>
+java vmsim –n [numframes] -a opt [tracefile]
+  
+java vmsim –n [numframes] -a fifo [tracefile]
+  
+java vmsim –n [numframes] -a aging -r [refresh] [tracefile]
 
 Aging Refresh Parameter: After simulating all trace-files on different reset numbers, and analyzing the data, a good choice for
 standard refresh is ~8.  A refresh rate of 8 consistently produced good results compared to other options.  The trend as refresh
