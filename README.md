@@ -1,11 +1,10 @@
 # Page-Replacement-Simulator
 CS1550 Project 3
 
-  The goal of this project was to compare the results of several different algorithms on traces of memory references. While simulating an 
-algorithm, statistics are collected about its performance such as the number of page faults that occur and the number of dirty frames
+  The goal of this project was to compare the results of several different algorithms on traces of memory references. While simulating an algorithm, statistics are collected about its performance such as the number of page faults that occur and the number of dirty frames
 that had to be written back to disk.
 
-  The three algorithms for this project are:
+The three algorithms for this project are:
   
 Opt – Simulate what the optimal page replacement algorithm would choose if it had perfect knowledge
 
