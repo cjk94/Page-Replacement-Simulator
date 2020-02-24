@@ -6,13 +6,18 @@ algorithm, statistics are collected about its performance such as the number of 
 that had to be written back to disk.
 
   The three algorithms for this project are:
+  
 Opt – Simulate what the optimal page replacement algorithm would choose if it had perfect knowledge
+
 FIFO – Implement first-in, first-out
+
 Aging – Implement the aging algorithm
+
 The page table is for a 32-bit address space. All pages are be 4KB in size. The number of frames will be a parameter to the execution 
 of the program.
 
 To run from the command-line choose one of these options:
+
 java vmsim –n <numframes> -a opt <tracefile>
 java vmsim –n <numframes> -a fifo <tracefile>
 java vmsim –n <numframes> -a aging -r <refresh> <tracefile>
