@@ -1,10 +1,11 @@
 # Page-Replacement-Simulator
 CS1550 Project 3
-The goal of this project was to compare the results of several different algorithms on traces of memory references. While simulating an 
+
+  The goal of this project was to compare the results of several different algorithms on traces of memory references. While simulating an 
 algorithm, statistics are collected about its performance such as the number of page faults that occur and the number of dirty frames
 that had to be written back to disk.
 
-The three algorithms for this project are:
+  The three algorithms for this project are:
 Opt – Simulate what the optimal page replacement algorithm would choose if it had perfect knowledge
 FIFO – Implement first-in, first-out
 Aging – Implement the aging algorithm
@@ -22,6 +23,6 @@ is increased is that page Faults increase, but there is some improvement gained 
 around 8.
 
 
-Obviously the OPT algorithm is the best, but unfortunately it is impossible to know all the information that we were given.  
+  Obviously the OPT algorithm is the best, but unfortunately it is impossible to know all the information that we were given.  
 A good second choice is the least recently used algorithm with aging pages.  This algorithm’s performance is not quite as good
 as the optimal algorithm, but it is a good alternative.  Far better performance than a first in first out algorithm.
